@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>See the World</title>
+    <link href="float-grid.css" rel="stylesheet" type="text/css" />
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans:600" rel="stylesheet">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+  </head>
+
+  <body>
+    <header role="banner" class="center">
+      <div class="header-text">
+        <h1 class="page-title">Explore the World!</h1>
+        <h2 class="description">Choose a country you wish to see.</h2>
+        <div class="drop-down-div" id="country-list"></div>
+      </div>
+    </header>
+
+    <main role="main" class="results" role="alert" aria-live="polite">
+      <div class="row">
+        <div class="col-6">
+          <section role="region" id="js-cam-results-text"></section>
+          <section role="region" id="js-cam-results"></section>
+        </div>
+        <div class="col-6">
+          <section role="region" id="js-results-text"></section>
+          <section role="region" id="js-results"></section>
+        </div>
+      </div>
+    </main>
+
+    <footer role="contentinfo">
+      <p class="center footer">Created by Edward Nunez - 2019</p>
+    </footer>
+    
+    <script type="text/javascript" src="store.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </body>
+</html>
