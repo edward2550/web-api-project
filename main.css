@@ -1,0 +1,214 @@
+* {
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+.center {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+h1 , h2 {
+color:white;
+}
+h2, h3, h4, p, option {
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	position: relative;
+	background-image: url('https://images.unsplash.com/photo-1529154631088-a0e516571c60?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+	left: 0; right: 0; top: 0; bottom: 0;
+	background-size: cover;
+	background-position: center center;
+	height: 100%;
+}
+
+.description {
+	margin-bottom: 30px;
+	padding-right: 5px;
+	padding-left: 5px; 
+}
+
+.page-title {
+	margin-top: 0;
+	font-family: 'Amatic SC', cursive;
+	font-size: 70px;
+	margin-bottom: 40px;
+}
+
+.header-text {
+	position: relative;
+	transform: translate(0, 50%);
+}
+
+.results {
+	position: relative;
+	left: 50%; 
+	transform: translate(-50%);
+	background-color: #f4fdff;
+}
+
+.country-list {
+	font-size: 12px;
+	border: 1px solid #34ced3;
+	padding: 0;
+	margin-right: 0;
+	margin-bottom: 12px;
+}
+
+.drop {
+	width: 280px;
+	height: 40px;
+	font-size: 16px;
+}
+
+.drop option {
+	max-width: 280px;
+}
+
+.cam-results-for {
+	text-align: left;
+	padding-bottom: 5px;
+	font-size: 22px;
+}
+
+.cam-titles {
+	margin-top: 0px;
+	margin-bottom: 3px;
+	font-size: 18px;
+}
+
+.vid-results {
+	display: block;
+	margin: 10px;
+	margin-right: 0px;
+}
+
+.video-col-title {
+	font-size: 22px;
+}
+
+.footer {
+	font-size: 12px;
+	margin-bottom: 3px;
+	background-color: #f4fdff;
+}
+
+@media screen and (max-width: 639px) {
+.webcams, .vid-results {
+	max-width: 100%;
+	height: auto;
+}
+.cam-div, .vid-div {
+	max-height: 200px;
+}
+}
+
+@media screen and (min-width: 640px) {
+.country-list {
+	font-size: 12px;
+	border: 1px solid #34ced3;
+	margin-bottom: 12px;
+}
+
+.webcams, .vid-results {
+	width: 280px;
+	height: 170px;
+}
+
+.video-col-title {
+	margin-bottom: 69px;
+}
+
+.page-title {
+	font-size: 80px;
+}
+
+.cam-div  {
+	height: 230px;
+}
+
+.vid-div {
+	height: 170px;
+	margin-top: 40px;
+}
+.cam-results-for {
+	padding-bottom: 0px;
+	margin-bottom: 10px;
+}
+}
+
+@media screen and (min-width: 880px) {
+.country-list {
+	font-size: 16px;
+	border: 1px solid #34ced3;
+	margin-bottom: 12px;
+}
+
+.webcams, .vid-results {
+	width: 400px;
+	height: 200px;
+}
+
+.page-title {
+	font-size: 80px;
+}
+
+.video-col-title {
+	margin-bottom: 58px;
+}
+
+.cam-div {
+	height: 240px;
+}
+
+.vid-div {
+	height: 200px;
+	margin-top: 40px;
+}
+
+.cam-results-for {
+	padding-bottom: 26px;
+}
+}
+
+@media screen and (min-width: 1100px) {
+.country-list {
+	font-size: 16px;
+	border: 1px solid #34ced3;
+	margin-bottom: 12px;
+}
+
+.webcams, .vid-results {
+	width: 450px;
+	height: 225px;
+}
+
+.page-title {
+	font-size: 80px;
+}
+
+.video-col-title {
+	margin-bottom: 62px;
+}
+.cam-div {
+	height: 255px;
+	margin-top: 3px;
+}
+
+.vid-div {
+	height: 225px;
+	margin-top: 33px;
+}
+
+.cam-results-for {
+	padding-bottom: 26px;
+}
+
+}
