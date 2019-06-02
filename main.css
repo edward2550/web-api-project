@@ -51,11 +51,11 @@ header {
 	position: relative;
 	left: 50%; 
 	transform: translate(-50%);
-	background-color: #f4fdff;
+	background-color: burlywood;
 }
 
 .country-list {
-	font-size: 12px;
+	font-size: 15px;
 	border: 1px solid #34ced3;
 	padding: 0;
 	margin-right: 0;
@@ -97,7 +97,7 @@ header {
 .footer {
 	font-size: 12px;
 	margin-bottom: 3px;
-	background-color: #f4fdff;
+	background-color:#f4fdff;
 }
 
 @media screen and (max-width: 639px) {
